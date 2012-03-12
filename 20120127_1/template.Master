@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="template.master.cs" Inherits="_20120127_1.template" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <title>ゆーしん</title>
+    </asp:ContentPlaceHolder>
+    <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <form id="form1" class="container" runat="server">
+    <div class="header">
+        <h1>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder_HeaderTitle" runat="server">
+            
+            </asp:ContentPlaceHolder>
+        </h1>
+    </div>
+    <div class="navTop">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder_NavTop" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="contentMain">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder_Main" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">
+        <p><a href="signdown.aspx">退会</a></p>
+        <p>(C)2012 ne_Sachirou</p>
+    </div>
+    <!--
+    <div id="activityDialogHolder">
+        <div id="buttonCloseActivityDailog">×</div>
+        <div id="activityDialog">
+            <div id="activityTypeTab">
+                <div id="activityTypeTabItemChar" class="activityTypeTabItem">文字</div>
+                <div id="activityTypeTabItemFont" class="activityTypeTabItem">字体</div>
+                <div id="activityTypeTabItemSentence" class="activityTypeTabItem">例文</div>
+            </div>
+            <div id="activityCreationAreaChar" class="activityCreationArea">
+                <div>
+                    <input id="createdCharImageFile" type="file" accept="image/*" />
+                </div>
+                <p>OR</p>
+                <div>
+                    <div>
+                        <canvas id="charCanvas"></canvas>
+                    </div>
+                    <div>
+                        <input id="buttonClearCanvas" type="button" value="clear canvas" />
+                        <input id="buttonUndoCanvas" type="button" value="undo" />
+                        <input id="buttonRedoCanvas" type="button" value="redo" />
+                    </div>
+                </div>
+            </div>
+            <div id="activityCreationAreaFont" class="activityCreationArea">
+                字体名<input id="createdFontName" type="text" size="30" />
+                字体説明<textarea id="createdFontProfile" cols="30" rows="10"></textarea>
+            </div>
+            <div id="activityCreationAreaSentence" class="activityCreationArea">
+                <select id="createdSentenseFontID"></select>
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+            <input id="buttonSubmitActivity" type="button" value="送信" />
+        </div>
+    </div>
+    -->
+    </form>
+    <script src="barnner.js" type="text/javascript"></script>
+    <script src="ui.js" type="text/javascript"></script>
+</body>
+</html>

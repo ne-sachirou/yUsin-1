@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<font>
+  <fontName>Example Font</fontName>
+  <fontProfile>This is an example font data.</fontProfile>
+  <charactors>
+    <charactor imageID="some guid" unicode="E" />
+    <charactor imageID="some guid" unicode="x" />
+  </charactors>
+</font>

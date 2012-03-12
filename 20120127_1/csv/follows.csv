@@ -1,0 +1,6 @@
+"userID","targetType(user|font)","objectID"
+"63717b1c-476d-4c47-8794-4eee0a89bb82","user","00aae0e5-91ee-4fe7-afa0-dfdc2b89580d"
+"00aae0e5-91ee-4fe7-afa0-dfdc2b89580d","user","63717b1c-476d-4c47-8794-4eee0a89bb82"
+"8c1181ff-a4cc-4c17-80ff-2102fdcc4190","user","63717b1c-476d-4c47-8794-4eee0a89bb82"
+"8c1181ff-a4cc-4c17-80ff-2102fdcc4190","user","00aae0e5-91ee-4fe7-afa0-dfdc2b89580d"
+"63717b1c-476d-4c47-8794-4eee0a89bb82","user","8c1181ff-a4cc-4c17-80ff-2102fdcc4190"

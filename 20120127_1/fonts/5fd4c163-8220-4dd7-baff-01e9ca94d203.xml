@@ -1,0 +1,16 @@
+<font>
+  <fontName>横假名</fontName>
+  <fontProfile>横書きの假名。</fontProfile>
+  <charactors>
+    <charactor unicode="あ" imageID="d11dd27c-cb76-4664-833b-8103594a0106" />
+    <charactor unicode="い" imageID="1c5c1927-7242-48c7-a6c6-03cca6063190" />
+    <charactor unicode="う" imageID="74ae7cfc-4461-4e9e-bc6c-526323a100d7" />
+    <charactor unicode="え" imageID="ac8ea439-7c66-4819-914b-4c82bcb07317" />
+    <charactor unicode="お" imageID="31df0bab-fcca-4481-82c1-8ca1ec9d6c98" />
+    <charactor unicode="か" imageID="fda00a3f-ab41-4b54-8333-1fc110cd0553" />
+    <charactor unicode="き" imageID="add34413-f2ae-426f-a359-30e54e5864e9" />
+    <charactor unicode="く" imageID="d779adb2-f8d2-4b77-a6b9-1ee01895dedb" />
+    <charactor unicode="け" imageID="f4603df7-a9b0-4520-919f-8b7f1256c37a" />
+    <charactor unicode="こ" imageID="edffbac7-8181-49cc-874e-23e490507e3d" />
+  </charactors>
+</font>

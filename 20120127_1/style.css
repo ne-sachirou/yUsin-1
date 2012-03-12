@@ -1,0 +1,265 @@
+﻿body
+{
+	background-color: #cf9;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-position: center 1em;
+  background-attachment: fixed;
+	font-family: "TakaoExゴシック", "ヒラギノ角ゴ Pro W3" ,"メイリオ", Sans-Serif;
+	font-size: 10pt;
+	line-height: 1.1em;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {color: #60f;}
+a:hover,
+a:focus {
+  color: red;
+  text-decoration: underline;
+}
+
+p {clear: both;}
+
+.buttonYellow {display: block; float: left; height: 48px; padding-left: 48px; line-height: 48px;
+  background-image: url("buttons.png"); background-position: 0 0; background-repeat: no-repeat;}
+.buttonLime {display: block; float: left; height: 48px; padding-left: 48px; line-height: 48px;
+  background-image: url("buttons.png"); background-position: 0 -48px; background-repeat: no-repeat;}
+.buttonAqua {display: block; float: left; height: 48px; padding-left: 48px; line-height: 48px;
+  background-image: url("buttons.png"); background-position: 0 -96px; background-repeat: no-repeat;}
+.buttonPurple {display: block; float: left; height: 48px; padding-left: 48px; line-height: 48px;
+  background-image: url("buttons.png"); background-position: 0 -144px; background-repeat: no-repeat;}
+.buttonBlue {display: block; float: left; height: 48px; padding-left: 48px; line-height: 48px;
+  background-image: url("buttons.png"); background-position: 0 -192px; background-repeat: no-repeat;}
+.buttonPink {display: block; float: left; height: 48px; padding-left: 48px; line-height: 48px;
+  background-image: url("buttons.png"); background-position: 0 -240px; background-repeat: no-repeat;}
+.buttonRed {display: block; float: left; height: 48px; padding-left: 48px; line-height: 48px;
+  background-image: url("buttons.png"); background-position: 0 -288px; background-repeat: no-repeat;}
+.buttonGreen {display: block; float: left; height: 48px; padding-left: 48px; line-height: 48px;
+  background-image: url("buttons.png"); background-position: 0 -336px; background-repeat: no-repeat;}
+.buttonYellow:hover, .buttonYellow:focus {background-position: 0 -48px;}
+.buttonBlue:hover, .buttonBlue:focus {background-position: 0 -96px;}
+
+.container
+{
+	position: relative;
+	width: 92%;
+	top: 0.5em;
+	left: 4%;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
+	color: #000;
+}
+
+.navTop
+{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 48px;
+	background: black;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	text-align: right;
+  z-index: 100;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.navTop a
+{
+	padding: 0 0.5em;
+	display: block;
+  min-width: 4em;
+  height: 100%;
+	float: left;
+	text-decoration: none;
+  text-align: center;
+	color: white;
+  line-height: 48px;
+}
+
+.navTop #makeNewActivity
+{
+  position: absolute;
+  right: 0;
+}
+
+.navTop a:hover,
+.navTop a:focus {
+  background: #ccc;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.navTop a + a
+{
+	border-left: 1px solid white;
+  border-left-color: rgba(255, 255, 255, 0.8);
+}
+
+#menuMakeNewActivity
+{
+  display: none;
+  position: absolute;
+  width: 6em;
+  max-width: 6em;
+  top: 48px;
+  right: 0;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+#menuMakeNewActivity #itemMakeNewChar,
+#menuMakeNewActivity #itemMakeNewFont,
+#menuMakeNewActivity #itemMakeNewSentence
+{
+  cursor: pointer;
+  width: 100%;
+  height: 36px;
+  border-top: 1px solid white;
+  border-top-color: rgba(255, 255, 255, 0.8);
+  line-height: 36px;
+}
+
+#menuMakeNewActivity #itemMakeNewChar:hover,
+#menuMakeNewActivity #itemMakeNewChar:focus,
+#menuMakeNewActivity #itemMakeNewFont:hover,
+#menuMakeNewActivity #itemMakeNewFont:focus,
+#menuMakeNewActivity #itemMakeNewSentence:hover,
+#menuMakeNewActivity #itemMakeNewSentence:focus
+{
+  background: #ccc;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.header
+{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	top: 48px;
+	background: #ff1100;
+  background: rgba(255, 0, 0, 0.9);
+}
+
+.header h1
+{
+	margin-top: 0;
+  margin: 0;
+	text-align: center;
+	line-height: 1em;
+	height: 100%;
+}
+
+.contentMain
+{
+  overflow: hidden;
+	position: relative;
+	width: 100%;
+	top: 48px;
+}
+
+.contentMain .activity
+{
+  border-bottom: 1px solid #000;
+  margin: 1em;
+}
+
+.contentMain .activity .activityDate
+{
+  font-size: smaller;
+}
+
+.contentMain .follows
+{
+  float: left;
+  margin: 0.2em;
+  padding: 0.2em;
+  background: #eef;
+}
+
+.contentMain .clear
+{
+  clear: both;
+}
+
+.footer
+{
+	position: relative;
+	width: 100%;
+	top: 48px;
+  padding-bottom: 2em;
+	font-size: smaller;
+  text-align: right;
+}
+
+/*
+#activityDialogHolder {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
+
+#buttonCloseActivityDailog {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 36px;
+  height: 36px;
+  font-size: 36px;
+}
+
+#buttonCloseActivityDailog:hover,
+#buttonCloseActivityDailog:focus {
+  font-weight: bold;
+}
+
+#activityDialog {
+  position: absolute;
+  top: 48px;
+  width: 640px;
+  height: 640px;
+  overflow: scroll;
+  background-color: white;
+}
+
+#activityDialog #activityTypeTab {
+}
+
+#activityDialog #activityTypeTab .activityTypeTabItem {
+  float: left;
+}
+
+#activityDialog #activityTypeTab .activityTypeTabIte:hover,
+#activityDialog #activityTypeTab .activityTypeTabIte:focus {
+  background-color: #eee;
+}
+
+#activityDialog #activityTypeTab .activityCreationArea {
+  display: none;
+}
+*/
+
+@media screen and (min-width: 0px) and (max-device-width: 480px) 
+{
+	body 
+	{
+		width: 100%;
+	}
+
+  img,
+  canvas {
+    max-width: 100%;
+  }
+}

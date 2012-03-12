@@ -1,0 +1,49 @@
+<font>
+  <fontName>Yuraruゴシック</fontName>
+  <fontProfile>
+  </fontProfile>
+  <charactors>
+    <charactor unicode="a" imageID="daba4696-1092-4118-aee0-079a061bcfc9" />
+    <charactor unicode="b" imageID="a1cabb58-05a4-4a63-a3ab-4de05fc6f81b" />
+    <charactor unicode="c" imageID="43c9eddd-0495-4008-87ea-1513b420546d" />
+    <charactor unicode="d" imageID="85a52a78-5ba1-4ffb-856b-29cc2b85150e" />
+    <charactor unicode="e" imageID="195a7da8-25f8-49c1-b8d4-9ba688232db1" />
+    <charactor unicode="f" imageID="971e8f05-7883-4ce7-9d4d-0db6af36721a" />
+    <charactor unicode="g" imageID="57f06396-e3bd-401d-96b8-d13c87dab0ee" />
+    <charactor unicode="h" imageID="33570626-b508-4699-85ef-70485a60d3d2" />
+    <charactor unicode="i" imageID="30da9c09-529d-49f0-bb12-8a067bb0416a" />
+    <charactor unicode="j" imageID="399b24f5-35f1-4cf0-b3f6-f0655cad67b0" />
+    <charactor unicode="k" imageID="e83b3a1b-a9a4-43da-a2bd-2d136fa92e35" />
+    <charactor unicode="l" imageID="aafa0944-c367-4bbb-9ad5-2024570f1335" />
+    <charactor unicode="m" imageID="4ed631ed-9100-412b-85e8-5c2d6f8006ee" />
+    <charactor unicode="n" imageID="aa79dd0e-0986-4369-b4d6-71fcc3924042" />
+    <charactor unicode="o" imageID="adbfd47b-29e5-4509-857f-58a7bba680c9" />
+    <charactor unicode="p" imageID="41eba3b2-3b35-4af1-90c1-a600cb38ecf2" />
+    <charactor unicode="q" imageID="b95c4feb-588b-46b7-a40b-638eb25dce85" />
+    <charactor unicode="r" imageID="261a5fdc-7a1d-450f-8f7f-f26f0e30fb20" />
+    <!--
+    <charactor unicode="s" imageID="" />
+    <charactor unicode="t" imageID="" />
+    -->
+    <charactor unicode="u" imageID="bb9940f6-bb48-4856-9425-fcc08d2d68b3" />
+    <!--
+    <charactor unicode="v" imageID="" />
+    <charactor unicode="w" imageID="" />
+    <charactor unicode="x" imageID="" />
+    -->
+    <charactor unicode="y" imageID="b7745e55-9327-428d-8e5f-04de36697f07" />
+    <!--
+    <charactor unicode="z" imageID="" />
+    <charactor unicode="0" imageID="" />
+    <charactor unicode="1" imageID="" />
+    <charactor unicode="2" imageID="" />
+    <charactor unicode="3" imageID="" />
+    <charactor unicode="4" imageID="" />
+    <charactor unicode="5" imageID="" />
+    <charactor unicode="6" imageID="" />
+    <charactor unicode="7" imageID="" />
+    <charactor unicode="8" imageID="" />
+    <charactor unicode="9" imageID="" />
+    -->
+  </charactors>
+</font>

@@ -1,0 +1,15 @@
+C:\Users\ne_Sachirou\Documents\HALt\WP11\20120127_1\20120127_1\20120127_1\bin\20120127_1.dll
+C:\Users\ne_Sachirou\Documents\HALt\WP11\20120127_1\20120127_1\20120127_1\bin\20120127_1.pdb
+C:\Users\ne_Sachirou\Documents\HALt\WP11\20120127_1\20120127_1\20120127_1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ne_Sachirou\Documents\HALt\WP11\20120127_1\20120127_1\20120127_1\obj\Debug\20120127_1.dll
+C:\Users\ne_Sachirou\Documents\HALt\WP11\20120127_1\20120127_1\20120127_1\obj\Debug\20120127_1.pdb
+C:\Users\ne_Sachirou\Documents\HALt\WP11\hewBase\20120127_1\20120127_1\bin\20120127_1.dll
+C:\Users\ne_Sachirou\Documents\HALt\WP11\hewBase\20120127_1\20120127_1\bin\20120127_1.pdb
+C:\Users\ne_Sachirou\Documents\HALt\WP11\hewBase\20120127_1\20120127_1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ne_Sachirou\Documents\HALt\WP11\hewBase\20120127_1\20120127_1\obj\Debug\20120127_1.dll
+C:\Users\ne_Sachirou\Documents\HALt\WP11\hewBase\20120127_1\20120127_1\obj\Debug\20120127_1.pdb
+C:\Users\ne_Sachirou\Documents\HALt\HE11\hewBase\20120127_1\20120127_1\bin\20120127_1.dll
+C:\Users\ne_Sachirou\Documents\HALt\HE11\hewBase\20120127_1\20120127_1\bin\20120127_1.pdb
+C:\Users\ne_Sachirou\Documents\HALt\HE11\hewBase\20120127_1\20120127_1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ne_Sachirou\Documents\HALt\HE11\hewBase\20120127_1\20120127_1\obj\Debug\20120127_1.dll
+C:\Users\ne_Sachirou\Documents\HALt\HE11\hewBase\20120127_1\20120127_1\obj\Debug\20120127_1.pdb
